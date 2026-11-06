@@ -12,7 +12,7 @@ jobs:
           fetch-depth: 0
 
       - name: Set up JDK 8
-        uses: actions/setup-java@v3
+        uses: actions/setup-java@5ffc13f46f88925e65ac32a8346cfd50ed96839
         with:
           java-version: '8'
           distribution: 'temurin'
