@@ -28,7 +28,7 @@ jobs:
           find . -name "*.apk" -exec cp {} ${{ github.workspace }}/apk/ \;
 
       - name: Upload APK Artifact
-        uses: actions/upload-artifact@master
+        uses: actions/upload-artifact@0b22f8797e0533b875f259a5e9282c1102028b41
         with:
           name: box
           path: ${{ github.workspace }}/apk/*
